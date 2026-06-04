@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"Claude stopped at $(date)\" >> /tmp/claude-hook-log.txt"
+          }
+        ]
+      }
+    ]
+  }
+}
